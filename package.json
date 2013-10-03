@@ -1,0 +1,13 @@
+{
+  "name": "request",
+  "version": "0.0.1",
+  "main" : "main.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sladey/node-oauth.git"
+  },
+  "dependencies": {
+    "oauth"  : "0.9.1",
+    "request": "<2.16.0"
+  }
+}
