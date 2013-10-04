@@ -1,8 +1,8 @@
-var OAuth = require('./node_modules/oauth').OAuth;
+var OAuth = require('oauth').OAuth;
 
 var fs = require('fs');
 var url = require('url');
-var basicRequest = require('./node_modules/request');
+var basicRequest = require('request');
                                   
 
 var request = function(options, callback){
